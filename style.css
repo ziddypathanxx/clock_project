@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#item {
+    position: relative;
+    display: flex;
+    height: 70vh;
+    width: 35vw;
+    /* border: 3px solid red; */
+    align-items: center;
+}
+
+#clock{
+    display: flex;
+    background-image: url("https://png.pngtree.com/png-clipart/20220708/ourmid/pngtree-clock-face-no-hands-big-roboto-font-new-png-image_5781616.png");
+    height: 50vh;
+    width: 40vw;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#point{
+    height: 1.7vh;
+    width: 0.8vw;
+    background-color: black;
+    border-radius: 2vh;
+    position: absolute;
+    left: 11.32vw;
+    top: 34.4vh;
+}
+
+#hours{
+    position: absolute;
+    width: 7px;
+    height: 11vh;
+    background-color: black;
+    left: 11.49vw;
+    top: 24.5vh;
+    border-radius: 10px;
+    /* display: none; */
+    transform-origin: bottom;
+}
+
+#minutes{
+    position: absolute;
+    width: 6px;
+    height: 13.5vh;
+    background-color: black;
+    left: 11.53vw;
+    top: 22vh;
+    border-radius: 10px;
+    /* display: none; */
+    transform-origin: bottom;
+}
+
+#seconds{
+    position: absolute;
+    width: 4px;
+    height: 17vh;
+    background-color: black;
+    left: 11.56vw;
+    top: 18.5vh;
+    border-radius: 10px;
+    /* display: none; */
+    transform-origin: bottom;
+}
